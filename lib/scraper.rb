@@ -1,5 +1,8 @@
 require 'open-uri'
+require 'nokogiri'
 require 'pry'
+
+html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
 
 class Scraper
 
